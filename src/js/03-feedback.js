@@ -4,7 +4,7 @@ import throttle from 'lodash.throttle';
 import { save, load, remove } from '../js/storage';
 
 const formRef = document.querySelector('.feedback-form');
-const LOCAL_STORAGE_KEY = 'feedback-form-key';
+const LOCAL_STORAGE_KEY = 'feedback-form-state';
 
 initPage();
 
